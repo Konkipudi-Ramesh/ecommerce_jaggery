@@ -19,7 +19,7 @@ function Card(props)
         <>
         <div className="product-card">
         <img src={CR} alt="Product 1" className="product-image" />
-        <h3 className="product-name">{props.name}panakam</h3>
+        <h3 className="product-name">{props.name}panakammm</h3>
         <p className="product-price">₹{props.price} 100 kg</p>
         <button className="order-button" onClick={()=>{order()}}>Order Now</button>
       </div>
